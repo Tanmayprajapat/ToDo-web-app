@@ -1,0 +1,29 @@
+.outer{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.root{
+    min-width: 20vw;
+    min-height: 40vh;
+    margin:15px
+}
+h2{
+    color: aliceblue;
+}
+h1,p{
+    text-align: center;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px !important;
+    height:80%;
+    width: 80%;
+}
+.button{
+    
+    align-self: center;
+}
